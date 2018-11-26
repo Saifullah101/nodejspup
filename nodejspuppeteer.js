@@ -122,7 +122,7 @@ if (test !== "https://mafiamatrix.com/loggedin.asp"){
   });
 
   await page1.bringToFront();
-  await page1.goto('http://2captcha.com/in.php?key=129173cb7fb2e640b4315189ea24ada7&method=userrecaptcha&googlekey=6LeLBQwTAAAAAEjOl7RVSY-x9mxPOxSOSkkR24aY&pageurl=https://mafiamatrix.com/&soft_id=1607');
+  await page1.goto('http://2captcha.com/in.php?key=129thod=userrecaptcha&googlekey=6LeLBQwTAAAAAEjOl7RVSY-x9mxPOxSOSkkR24aY&pageurl=https://mafiamatrix.com/&soft_id=1607');
   await delay(5000);
 
   const result = await page1.evaluate(() => {
@@ -289,4 +289,4 @@ process.on('uncaughtException', function (err) {
   console.log(err);
 })
 
-bot.login('NDI3MzA0MzE2NDg4MTIyMzY4.DZjVBA._RolbuE5AKwiyYM98YmNi9uaL4w');
+bot.login('NDI3MzA0MzE2NDg4MTIyuaL4w');
